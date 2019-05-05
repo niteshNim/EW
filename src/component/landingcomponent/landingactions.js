@@ -10,8 +10,7 @@ export class LandingActions extends Component
     return(
 
     <Card shadow={2} style={{width: '512px', margin: 'auto',height:'400px'}}>
-    <CardTitle style={{color: '#fff', height: '120px',
-     background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome
+    <CardTitle className="landing-grid">Welcome
     </CardTitle>
     {/* <CardText>
         </CardText> */}

@@ -2,15 +2,16 @@ import React,{Component} from 'react';
 import { Layout, Header, Navigation,Drawer,Content } from 'react-mdl';
 import {Link} from 'react-router-dom';
 import {Main} from '../maincomponent/main';
-
+import {FooterPage} from '../layout/footercomponent/footer'
+import { Footer } from 'mdbreact';
 class Home extends Component 
 {
 
   render()
   {
     return(
-      <div className="demo-big-content">
-      <Layout>
+      <div >
+      <Layout className="demo-big-content" style={{position:'relative'}}>
           <Header className="header-color" title="Logo" scroll>
               <Navigation>
               <Link to="/login">Login</Link>
@@ -32,6 +33,9 @@ class Home extends Component
               <Main/>
           </Content>
       </Layout>
+      <Footer>
+      <FooterPage/>
+      </Footer>
   </div>
     );
   }
