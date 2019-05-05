@@ -1,4 +1,33 @@
-.App {
+
+.header-color{
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.landing-grid{
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.actionbuttons
+{
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:'180px' ;
+  margin:'10px'
+}
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -7,6 +36,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
 
 .App-header {
   background-color: #282c34;
@@ -30,4 +62,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
